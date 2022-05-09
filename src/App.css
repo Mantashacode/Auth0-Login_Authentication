@@ -1,38 +1,22 @@
 .App {
+  margin-top: 40px;
+}
+.navbar.navbar-light.bg-light {
+  display: block;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar.navbar-light.bg-light #login {
+  margin-top: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.userDetails {
+  display: block;
+  margin-top: 6%;
+  margin-left: 20%;
+  background-color: lightblue;
+  padding: 10px;
+  width: fit-content;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userDetails h4 {
+  color: rgb(33, 33, 160);
+  text-align: center;
 }
